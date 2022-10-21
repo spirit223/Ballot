@@ -4,13 +4,19 @@
 
 <template>
   <div>
-    <input class="itemInput" type="text" placeholder="请输入项目">
-    <button class="radioBtn">D</button>
-    <button class="radioBtn">C</button>
+    <div id="input-bar">
+      <input class="itemInput" type="text" placeholder="请输入项目">
+      <button class="radioBtn">D</button>
+      <button class="radioBtn">C</button>
+    </div>
   </div>
 </template>
 
 <style lang="css">
+  #input-bar {
+    width: 400px;
+  }
+
   input {
     margin-left: 5px;
     margin-top: 5px;
