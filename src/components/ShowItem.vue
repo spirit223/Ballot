@@ -21,11 +21,12 @@
     margin-left: 5px;
     margin-top: 5px;
     margin-right: 10px;
+    background-color: rgb(250, 226, 93);
   }
 
   input:focus {
     border: none;
-    border-bottom: rgb(255, 158, 191) solid 1px;
+    border-bottom: rgb(255, 158, 191) solid 2px;
     outline: none;
     caret-color:red;
   }
@@ -36,7 +37,9 @@
   }
   
   .itemInput {
+    /* margin-left: 100px; */
     margin-left: 100px;
+    display: inline-block;
     height: 50px;
     border: none;
     width: 240px;
@@ -46,6 +49,7 @@
   }
 
   button {
+    display: inline-block;
     margin: 5px;
   }
 
