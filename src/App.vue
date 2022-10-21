@@ -1,6 +1,7 @@
 <script setup>
   import ShowItem from './components/ShowItem.vue';
   import AddItem from './components/AddItem.vue';
+  import Ballot from './components/Ballot.vue';
 </script>
 
 <template>
