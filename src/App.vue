@@ -11,9 +11,6 @@
       <AddItem id="add-item"></AddItem>
       <Ballot></Ballot>
     </div>
-    <div id="watch-div">
-      <ShowItem></ShowItem>
-    </div>
   </div>
 </template>
 
@@ -23,7 +20,7 @@
 }
 
 #watch-div {
-  margin-left: 40em;
+  /* margin-right: 20em; */
   display: inline-block;
 }
 

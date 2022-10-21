@@ -1,6 +1,6 @@
 <script setup>
   import { ref } from 'vue';
-  const showItem = ref('点击按钮抽签')
+  const showItem = ref('点击 random 按钮抽签')
   const items = ref([
     '尽力撕掉对方丝袜或衣物',
     '把酒倒在自己身上对方舔干',
@@ -43,7 +43,7 @@
 
 <template>
   <div id="ballot-root">
-    <button @click="randomItem">random</button>
+    <button @click="randomItem" id="randonBtn">RANDOM</button>
     <div id="exhibit">
       {{ showItem }}
     </div>
@@ -51,29 +51,31 @@
 </template>
 
 <style lang="css">
-html,body {
+/* html,body {
   background-color: rgb(51, 51, 51);
-}
+} */
 
 #ballot-root{
-  background-color: rgb(51, 51, 51); 
+  background-color: rgb(44, 100, 63); 
 }
 #ballot-root > button {
+  color: rgb(255, 255, 255);
   width: 200px;
   font-size: 40px;
   margin-left: 150px;
+  margin: 10px 0px 10px 150px;
   border-radius: 20px;
-  background-color: rgb(141, 193, 72);
+  background-color: rgb(133, 180, 102);
   border: none;
 }
 #exhibit {
   font-size: 26px;
-  color: lightcoral;
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items:center;
   height: 200px;
   width: 500px;
-  background-color: darkseagreen;
+  background-color: rgb(133, 180, 102);
 }
 </style>

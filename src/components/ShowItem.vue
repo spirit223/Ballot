@@ -36,6 +36,7 @@
   }
   
   .itemInput {
+    margin-left: 100px;
     height: 50px;
     border: none;
     width: 240px;
@@ -52,7 +53,8 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: rgba(35, 217, 110, 0.8);
+    border-bottom-right-radius: -50%;
+    background-color: rgb(133, 180, 102);
     color: rgb(239, 234, 234);
     border: none;
     font-weight: 700;
