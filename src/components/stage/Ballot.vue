@@ -57,6 +57,7 @@
 
 #ballot-root{
   background-color: rgb(44, 100, 63); 
+  border-radius: 10px;
 }
 #ballot-root > button {
   color: rgb(255, 255, 255);
@@ -77,5 +78,7 @@
   height: 200px;
   width: 500px;
   background-color: rgb(133, 180, 102);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 </style>
